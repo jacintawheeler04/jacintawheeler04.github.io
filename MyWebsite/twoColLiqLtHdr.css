@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFCC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+a img { 
+	border: none;
+}
+
+a:link {
+	color:#414958;
+	text-decoration: underline; 
+}
+
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+	font-weight: 200;
+}
+
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	color: #00C;
+}
+
+.container {
+	width: 80%;
+	max-width: 1100px;
+	min-width: 780px;
+	background-color: #CCF;
+	margin: 0 auto; 
+}
+
+.header {
+	background-color: #CCF;
+}
+
+.sidebar1 {
+	float: left;
+	width: 20%;
+	background-color: #CCF;
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #036;
+	text-decoration: none;
+}
+
+.content {
+	padding: 10px 0;
+	width: 80%;
+	float: left;
+	background-color: #CCF;
+}
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+
+ul.nav {
+	border-top: 1px solid #666; 
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+
+ul.nav li {
+	border-bottom: 1px solid #666; 
+}
+
+ul.nav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	text-decoration: none;
+	background-color: #8090AB;
+	color: #000;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background-color: #6F7D94;
+	color: #FFF;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: #FFFFCC;
+	position: relative;
+	clear: both; 
+}
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.subheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #369;
+	font-size: 120%;
+	font-style: oblique;
+}
+
+.pretty {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: bold;
+	color: #609;
+	text-decoration: none;
+}
+
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	font-style: italic;
+	font-weight: bolder;
+	color: #00F;
+	text-decoration: none;
+}
+
+.welcome {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-style: italic;
+	font-weight: bolder;
+	color: #96C;
+	text-decoration: none;
+}
+
+.container .header div {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.subby {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-style: italic;
+	font-weight: bold;
+	color: #600;
+	text-decoration: none;
+}
+
+.sidelink {
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	background-color: #CCF;
+}
+
+.poem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	text-transform: none;
+	color: #603;
+	align: center;
+	text-decoration: none;
+	font-size: 110%;
+}
+
+.linking {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F00;
+	list-style-type: none;
+	font-style: italic;
+	font-size: 120%;
+}
