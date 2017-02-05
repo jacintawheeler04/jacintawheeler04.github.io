@@ -6582,3 +6582,6 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.container article h1 {
+	font-family: Comic Sans MS, cursive;
+}
